@@ -1,6 +1,6 @@
 {
   "name": "@febrilian/rescodejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Response codes for my apps",
   "main": "index.js",
   "scripts": {
