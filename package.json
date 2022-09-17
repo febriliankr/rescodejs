@@ -1,0 +1,21 @@
+{
+  "name": "@febrilian/rescodejs",
+  "version": "1.0.0",
+  "description": "Response codes for my apps",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf /dist && npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc index.ts",
+    "build:cjs": "tsc index.ts --module CommonJS --outDir disc/cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/febriliankr/rescodejs.git"
+  },
+  "author": "Febrilian (github.com/febrilian)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/febriliankr/rescodejs/issues"
+  },
+  "homepage": "https://github.com/febriliankr/rescodejs#readme"
+}
