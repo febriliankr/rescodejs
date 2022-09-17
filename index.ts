@@ -141,4 +141,6 @@ function interpret(code: number) {
     return rescodeArr.filter((line) => line.code == code)[0]
 }
 
-export default { ...rescodeObj, interpret }
+const Resode = { ...rescodeObj, interpret }
+
+export default Rescode
